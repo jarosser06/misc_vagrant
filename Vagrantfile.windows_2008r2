@@ -11,7 +11,7 @@ Vagrant.configure("2") do |config|
     v.gui = true
   end
   config.windows.halt_timeout = 15
-  config.winrm.username = "vagrant"
+  config.winrm.username = "administrator"
   config.winrm.password = "vagrant"
   
 end
